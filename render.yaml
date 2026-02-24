@@ -2,7 +2,7 @@ services:
   - type: web
     name: signature-app-frontend
     runtime: static
-    buildCommand: npm install && npm run build
+    buildCommand: npm install && node node_modules/vite/bin/vite.js build
     staticPublishPath: ./dist
     pullRequestPreviewsEnabled: true
     headers:

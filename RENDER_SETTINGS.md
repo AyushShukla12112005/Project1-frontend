@@ -16,7 +16,7 @@ frontend
 
 #### Build Command
 ```
-npm install && npm run build
+npm install && node node_modules/vite/bin/vite.js build
 ```
 
 #### Publish Directory
@@ -69,7 +69,7 @@ frontend
 
 **Build Command:**
 ```
-npm install && npm run build
+npm install && node node_modules/vite/bin/vite.js build
 ```
 
 **Publish Directory:**

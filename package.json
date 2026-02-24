@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "node node_modules/vite/bin/vite.js build",
     "preview": "vite preview",
-    "start": "vite preview --port $PORT --host 0.0.0.0",
+    "start": "serve dist -s -l $PORT",
     "vercel-build": "node node_modules/vite/bin/vite.js build",
     "render-build": "npm install && node node_modules/vite/bin/vite.js build"
   },
@@ -16,7 +16,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-pdf": "^10.3.0",
-    "react-router-dom": "^6.20.0"
+    "react-router-dom": "^6.20.0",
+    "serve": "^14.2.5"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.0",
